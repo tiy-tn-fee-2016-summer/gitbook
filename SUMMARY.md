@@ -7,7 +7,7 @@
   - [Level 4](prework/level4.md)
   - [Projects](prework/projects.md)
 * Class Notes
-  - Week 1
+  <!-- - Week 1
     + [Day 0](week-1/day-0/index.md)
       * [Shell Review](week-1/day-0/shell.md)
       * [XCode and Brew](week-1/day-0/xcode.md)
@@ -105,4 +105,4 @@
     + [Shell Prompt](resources/shell.md)
     + [Playlists](resources/playlists.md)
     + [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
-  - [Homework Checklist](resources/homework-process.md)
+  - [Homework Checklist](resources/homework-process.md) -->

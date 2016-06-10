@@ -9,7 +9,7 @@ Luckily, I've created a starter script for us to get all of our machines in pret
 
 Now that we have `wget`, we can grab our installer script:
 
-```wget https://raw.githubusercontent.com/TIY-TN-FEE-2016-june/gitbook/master/_scripts/super-installer.sh```
+```wget https://raw.githubusercontent.com/TIY-TN-FEE-2016-summer/gitbook/master/_scripts/super-installer.sh```
 
 Now let's go ahead and modify the permissions on this file to make it runnable from the command-line:
 

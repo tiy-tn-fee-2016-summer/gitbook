@@ -7,15 +7,15 @@
   - [Level 4](prework/level4.md)
   - [Projects](prework/projects.md)
 * Class Notes
-  <!-- - Week 1
+  - Week 1
     + [Day 0](week-1/day-0/index.md)
       * [Shell Review](week-1/day-0/shell.md)
       * [XCode and Brew](week-1/day-0/xcode.md)
       * [Super Install Script](week-1/day-0/super-installer.md)
       * [SSH Keys](week-1/day-0/ssh.md)
       * [Atom Configuration](week-1/day-0/atom.md)
-      * [Zsh](week-1/day-0/zsh.md)
       * [Other](week-1/day-0/other.md)
+  <!--
     + [Day 1](week-1/day-1/index.md)
       * [HTML Basics](week-1/day-1/html.md)
       * [HTML Boilerplate](week-1/day-1/boilerplate.md)

@@ -28,15 +28,19 @@ clis=(
   git
   trash
   node
+  elixir
+  watchman
+  phantomjs
 )
+echo "installing cli tools and languages..."
 brew install ${clis[@]}
 
+# Update elixir dependencies
+echo "updating elixir stuff"
+mix local.hex
+mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
+
 brew cleanup
-
-# Install brew cask
-brew install caskroom/cask/brew-cask
-
-brew tap caskroom/versions
 
 # Apps
 apps=(
@@ -52,7 +56,6 @@ apps=(
   spectacle
   dash
 
-  #dash
   #mou
   #github
 )

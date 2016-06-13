@@ -35,9 +35,7 @@ console.log(a);
 
 ## Inspiration
 
-### Laravel Home Page (ish)
-
-[![Laravel Home Page](./laravel.png)](./laravel.png)
+### [Pied Piper](http://piedpiper.com)
 
 ### Whiteboards
 
@@ -45,7 +43,7 @@ console.log(a);
 
 ## Exercise & Lesson Code
 
-- [https://github.com/TIY-TN-FEE-2016-spring/lesson-01-02](https://github.com/TIY-TN-FEE-2016-spring/lesson-01-02)
+- [https://github.com/TIY-TN-FEE-2016-spring/lesson-01-02](https://github.com/TIY-TN-FEE-2016-summer/lesson-01-01)
 
 ## Lab
 
@@ -60,4 +58,4 @@ console.log(a);
 
 ## Homework
 
-https://github.com/TIY-TN-FEE-2016-spring/assignments/tree/master/01-html-introduction
+https://online.theironyard.com/paths/379/units/2144/assignments/4745

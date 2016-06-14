@@ -42,6 +42,9 @@ console.assert(x _ y === 2); // Remainder of division
 
 ## Topics
 
+* [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
+* [Basic CSS Selectors](selectors.html)
+* [Basic CSS Properties](properties.html)
 * [CSS Waterfall](css-waterfall.html)
 * [Inherit](inherit.html)
 * **[px, rem, and em Units](units.html)**
@@ -61,12 +64,12 @@ console.assert(x _ y === 2); // Remainder of division
 
 ## Exercise & Lesson Code
 
-- [https://github.com/TIY-TN-FEE-2016-summer/lesson-01-02](https://github.com/TIY-TN-FEE-2016-summer/lesson-01-02)
+* [https://github.com/TIY-TN-FEE-2016-summer/lesson-01-02](https://github.com/TIY-TN-FEE-2016-summer/lesson-01-02)
 
 ## Lab
 
-- [Simple Float Grids](float-grids.html)
-- [Media Object](media-object.html)
+* [Simple Float Grids](float-grids.html)
+* [Media Object](media-object.html)
 
 
 ## Video

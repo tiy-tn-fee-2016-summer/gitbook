@@ -31,8 +31,6 @@ console.log(a);
 - [Common HTML Elements](elements.html)
 - [Periodic Table of (HTML) Elements](../../resources/html/table-of-elements.html)
 
-- [Git Basics](git.html)
-
 ## Inspiration
 
 ### [Pied Piper](http://piedpiper.com)
@@ -43,13 +41,11 @@ console.log(a);
 
 ## Exercise & Lesson Code
 
-- [https://github.com/TIY-TN-FEE-2016-spring/lesson-01-02](https://github.com/TIY-TN-FEE-2016-summer/lesson-01-01)
+- [https://github.com/TIY-TN-FEE-2016-summer/lesson-01-02](https://github.com/TIY-TN-FEE-2016-summer/lesson-01-01)
 
 ## Lab
 
-- [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
-- [Basic CSS Selectors](selectors.html)
-- [Basic CSS Properties](properties.html)
+- [Git Basics](git.html)
 - Homework
 
 ### Whiteboards

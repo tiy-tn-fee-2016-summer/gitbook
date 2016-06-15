@@ -1,4 +1,21 @@
-# Tuesday March 1
+# Tuesday June 14
+
+## Daily JS Take 1
+
+Variable assignment and primitive data types
+
+```js
+var x = 1;
+var y = 'abc';
+var z = true;
+var a = x;
+x = 2;
+
+console.log(x); // 2
+console.log(y); // "abc"
+console.log(z); // true
+console.log(a); // 1
+```
 
 
 ## Daily JS

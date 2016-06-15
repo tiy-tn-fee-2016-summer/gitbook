@@ -1,29 +1,5 @@
 # Monday June 13
 
-
-## Daily JS
-
-Variable assignment and primitive data types
-
-```js
-var x = 1;
-var y = 'abc';
-var z = true;
-var a = x;
-x = 2;
-
-console.log(x);
-console.log(y);
-console.log(z);
-console.log(a);
-
-/* Results */
-//
-//
-//
-//
-```
-
 ## Topics
 
 - [HTML Elements and Attributes](html.html)

@@ -17,46 +17,6 @@ console.log(z); // true
 console.log(a); // 1
 ```
 
-
-## Daily JS
-
-Maths & Equality
-
-```js
-var x = 2;
-var y = 3;
-var z = 4;
-var a = '2';
-var b = 'two';
-
-
-console.log(x == x);
-console.log(x == y);
-console.log(x == a);
-console.log(a == b);
-console.log(x === y);
-console.log(x === a);
-console.log(x !== a);
-console.log(x !== z);
-
-// When you see console.assert fill in the _ to make the statement true
-console.assert(x _ y === -1);
-console.assert(x _ y === 5);
-console.assert(z _ x === 2);
-console.assert(x _ y === 6);
-console.assert(x _ y === 2); // Remainder of division
-
-/* Results (Printed statements from console.logs) */
-//
-//
-//
-//
-//
-//
-//
-//
-```
-
 ## Topics
 
 * [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)

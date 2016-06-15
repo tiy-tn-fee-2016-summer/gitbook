@@ -27,3 +27,6 @@
       * [CSS Box Model](week-1/day-2/box-model.md)
       * [CSS display](week-1/day-2/display.md)
       * [CSS float](week-1/day-2/float.md)
+    + [Day 3](week-1/day-3/index.md)
+      * [CSS position](week-1/day-3/position.md)
+      * [CSS transform](week-1/day-3/transform.md)

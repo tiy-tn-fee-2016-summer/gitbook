@@ -1,4 +1,4 @@
-# Thursday March 3
+# Thursday June 16
 
 ## Daily JS
 
@@ -12,31 +12,27 @@ var a = '2';
 var b = 'two';
 
 
-console.log(x == x);
-console.log(x == y);
-console.log(x == a);
-console.log(a == b);
-console.log(x === y);
-console.log(x === a);
-console.log(x !== a);
-console.log(x !== z);
+console.log(x == x); // true
+console.log(x == y); // false
+console.log(x == a); // true
+console.log(a == b); // false
+
+// MOAR EQUALS
+console.log(x === y); // false
+console.log(x === a); // false
+
+// Not Equals
+console.log(x != a); // false
+// MOAR NOT EQUALS
+console.log(x !== a); // true
+console.log(x !== z); // true
 
 // When you see console.assert fill in the _ to make the statement true
-console.assert(x _ y === -1);
-console.assert(x _ y === 5);
-console.assert(z _ x === 2);
-console.assert(x _ y === 6);
-console.assert(x _ y === 2); // Remainder of division
-
-/* Results (Printed statements from console.logs) */
-//
-//
-//
-//
-//
-//
-//
-//
+console.assert(x - y === -1);
+console.assert(x + y === 5);
+console.assert(z / x === 2);
+console.assert(x * y === 6);
+console.assert(x % y === 2); // Remainder of division
 ```
 
 ## Topics

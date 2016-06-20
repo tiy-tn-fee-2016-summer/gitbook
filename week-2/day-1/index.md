@@ -69,6 +69,7 @@ console.log(x + Math.parseInt(b)); // 4
 * Scaffolding with Yeoman and SASS Broccoli
   - `npm install -g yo ember-cli generator-sass-broccoli`
   - `yo sass-broccoli`
+  - Run Local Server - `npm start`
 * SASS Lint
   - `apm install linter-sass-lint`
 * SASS Variables
@@ -85,8 +86,36 @@ console.log(x + Math.parseInt(b)); // 4
 
 ## Exercise & Lesson Code
 
-https://github.com/TIY-TN-FEE-2016-june/lesson-02-01
+https://github.com/tiy-tn-fee-2016-summer/lesson-02-01
 
-## Lab
+## Daily JS #2
+
+## Daily JS
+
+Arrays and Objects (all ES6 like)
+
+```js
+var x = [1, 2, 3];
+var y = [1, 2, 3];
+var z = [x, y];
+var a = {'some-thing': x, another: 'hello'};
+var b = {x, y};
+var c = {x: x, y: y};
+var d = c;
+var e = {z: x, y};
+
+console.log(x[0]); // 1
+console.log(x.length); // 3
+console.log(y[0] === x[0]); // true
+console.log(x === y); // false
+console.log(x == y); // false
+console.log(z[0] === x); // true
+console.log(a.another); // 'hello'
+console.log(a.another.length); // 5
+console.log(a['some-thing']); // [1, 2, 3]
+console.log(a['some-thing'][2]); // 3
+console.log(b === c); // false
+console.log(c === d); // true
+```
 
 ## Homework

@@ -1,6 +1,4 @@
-# Wednesday March 2
-
-## Daily JS
+# Wednesday June 15
 
 ## Standups
 

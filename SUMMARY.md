@@ -34,3 +34,8 @@
       * [Layout Planning](week-1/day-4/layout-planning.md)
       * [Layout Tricks](week-1/day-4/layout-tricks.md)
       * [Flexbox](week-1/day-4/flex-box.md)
+
+  - Week 2
+    + [Day 1](week-2/day-1/index.md)
+      * [Organizing](week-2/day-1/organizing.md)
+      * [BEM](week-2/day-1/bem.md)

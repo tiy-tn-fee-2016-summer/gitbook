@@ -1,4 +1,4 @@
-# Monday March 7
+# Monday June 20
 
 ## Daily JS
 
@@ -13,17 +13,18 @@ var b = '2';
 var c = `${a} foo ${b}`;
 var d = `foo`;
 var e = `${x} + ${y} = ${x + y}`;
-var f = x + ' + ' + y + ' = ' + (x + y);
+var f = x + ' + ' + y + ' = ' + (x + y); // Same as var e
 
-console.log(x + y); //
-console.log(z + a); //
-console.log(z + ' ' + a); //
-console.log(c); //
-console.log(d); //
-console.log(e); //
-console.log(x + z); //
-console.log(x + b); //
-console.log(x + Math.parseInt(b)); //
+console.log(x + y); // 5
+console.log(z + a); // 'helloworld'
+console.log(z + ' ' + a); // 'hello world'
+console.log(`${z} ${a}`); // 'hello world'
+console.log(c); // 'world foo 2'
+console.log(d); // 'foo'
+console.log(e); // '2 + 3 = 5'
+console.log(x + z); // '2hello'
+console.log(x + b); // '22'
+console.log(x + Math.parseInt(b)); // 4
 ```
 
 ## Lab
@@ -39,9 +40,15 @@ console.log(x + Math.parseInt(b)); //
 
 ### Common Struggles
 
-*
+* Positioning (`absolute`, `relative`)
+* Centering things up
 
 ### Common Wins
+
+* Taking breaks HELPS!!!
+* Breaking layouts into smaller pieces helps
+* Git is starting to make sense
+* Flexbox seems cool
 
 ## Topics
 
@@ -60,7 +67,7 @@ console.log(x + Math.parseInt(b)); //
     - What are we using?
       * Why that one?
 * Scaffolding with Yeoman and SASS Broccoli
-  - `npm install -g yo generator-sass-broccoli`
+  - `npm install -g yo ember-cli generator-sass-broccoli`
   - `yo sass-broccoli`
 * SASS Lint
   - `apm install linter-sass-lint`

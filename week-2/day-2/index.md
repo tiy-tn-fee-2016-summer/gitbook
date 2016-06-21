@@ -67,10 +67,10 @@ console.log(a()); // "no"
 
 ## Exercise & Lesson Code
 
-https://github.com/TIY-TN-FEE-2016-summer/lesson-02-02
+https://github.com/tiy-tn-fee-2016-summer/lesson-02-01/tree/tuesday
 
 ## Lab
 
 ## Homework
 
-https://github.com/TIY-TN-FEE-2016-summer/assignments/tree/master/06-tshirt-layout
+https://online.theironyard.com/paths/379/units/2144/assignments/4948

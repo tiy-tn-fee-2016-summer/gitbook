@@ -7,6 +7,7 @@
 ```js
 var x = function() {
   console.log('hello');
+  return 'Passed from x';
 };
 
 function y() {
@@ -22,11 +23,12 @@ var a = () => {
 };
 
 
-console.log(x); //
-console.log(x()); //
-console.log(y()); //
-console.log(z()); //
-console.log(a()); //
+console.log(x); // [Function]
+x(); // "hello"
+console.log(x()); // "hello" // "Passed from x"
+console.log(y()); // "world" // undefined
+console.log(z()); // "yup" // undefined
+console.log(a()); // "no"
 ```
 
 ## Interruptions
@@ -42,11 +44,17 @@ console.log(a()); //
 
 ### Common Wins
 
-*
+* SASS helps keep details together
+* Flexbox
 
 ### Common Struggles
 
-*
+* "Right Way"?
+* Keeping up with HW
+* Wanting to get the details just right
+* GoT and Bachelorette ALL THE FEELINGS!!!
+
+![My Code](http://images-cdn.9gag.com/photo/anYZ9Eo_700b.jpg)
 
 ## Topics
 

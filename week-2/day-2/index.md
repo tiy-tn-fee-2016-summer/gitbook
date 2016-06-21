@@ -59,9 +59,8 @@ console.log(a()); // "no"
 ## Topics
 
 * Resources
-* Media Queries
-* Pseudo Selectors
-* Pseudo Elements
+* [Media Queries](https://online.theironyard.com/paths/379/units/2230/lessons/8599)
+* [Pseudo Selectors & Elements](https://online.theironyard.com/paths/379/units/2230/lessons/8600)
 * CSS `content`
 
 ## Inspiration

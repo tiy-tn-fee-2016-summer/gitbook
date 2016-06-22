@@ -43,7 +43,7 @@ console.log(z(x)); // 4
 console.log(a(15, 2)); // 30
 console.log(x); // 2
 console.log(a()); // 90
-console.log(a(41)); // 41
+console.log(a(41)); // 410
 console.log(b(y, x)); // 4
 ```
 
@@ -78,8 +78,6 @@ console.log(b(y, x)); // 4
   - [Tab Wrangler](https://chrome.google.com/webstore/detail/tab-wrangler/egnjhciaieeiiohknchakcodbpgjnchh?hl=en)
   - [Paradox of Choice](https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice?language=en)
   - [Music Playlists](../../resources/playlists.html)
-* [Tips for Starting](../../resources/getting-started.html)
-* When to Commit?
 * [Selector Specificity](specificity.html)
 * [BEM](bem.html)
 * Refactoring - Scott Pilgrim ଘ(੭*ˊᵕˋ)੭* ̀ˋ ɪɴᴛᴇʀɴᴇᴛs
@@ -103,10 +101,13 @@ console.log(b(y, x)); // 4
 
 ## Exercise & Lesson Code
 
-https://github.com/TIY-TN-FEE-2016-spring/02-03-pricing-table
+https://github.com/tiy-tn-fee-2016-summer/lesson-02-03
 
 ## Lab
 
 ## Homework
 
-https://github.com/TIY-TN-FEE-2016-spring/assignments/tree/master/07-pricing-page
+Tonight work on T-Shirts and cleaning up other past assignments.
+Also, watch [this video](https://www.youtube.com/watch?v=ofSnkJ9tPPM&index=4&list=PLfWvsMtBxHo1WqPrBwxq3zc2RDo5HkYwy) and a small post on https://gist.github.com.
+For the file name call it `blog.md` and if you know Markdown, you can use that for fomatting.
+When you're done, slack me the url of your gist after clicking on "Create Public Gist".

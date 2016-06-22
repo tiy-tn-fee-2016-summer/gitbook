@@ -21,8 +21,8 @@ var y = function(foo) {
   return foo;
 };
 
-function z(z_foo) {
-  return z_foo + x;
+function z(foo) {
+  return foo + x;
 }
 
 var a = (x = 9, y = 10, z = 2) => {
@@ -30,19 +30,21 @@ var a = (x = 9, y = 10, z = 2) => {
 };
 
 var b = (cb, value) => {
-  return cb(value);
+  return cb(value + 2);
 };
 
-console.log(y(12)); //
-console.log(y('hello')); //
-console.log(foo); //
-console.log(y(x)); //
-console.log(z('Five')); //
-console.log(a(15, 2)); //
-console.log(x); //
-console.log(a()); //
-console.log(a(41)); //
-console.log(b(y, x)); //
+console.log(y()); // undefined
+console.log(y(12)); // 12
+console.log(y('hello')); // 'hello'
+console.log(foo); // Error no variable called foo
+console.log(y(x)); // 2
+console.log(z('Five')); // 'Five2'
+console.log(z(x)); // 4
+console.log(a(15, 2)); // 30
+console.log(x); // 2
+console.log(a()); // 90
+console.log(a(41)); // 41
+console.log(b(y, x)); // 4
 ```
 
 ## Interruptions

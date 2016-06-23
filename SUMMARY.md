@@ -41,3 +41,4 @@
       * [BEM](week-2/day-1/bem.md)
     + [Day 2](week-2/day-2/index.md)
     + [Day 3](week-2/day-3/index.md)
+    + [Day 4](week-2/day-4/index.md)

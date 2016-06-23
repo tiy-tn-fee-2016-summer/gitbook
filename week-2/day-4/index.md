@@ -31,21 +31,21 @@ var z = {
   },
 };
 
-console.log(x(12)); //
-console.log(y()); //
-console.log(z.firstName);  //
-console.log(z.somethingCool(8)); //
-console.log(z.getFirstName()); //
-console.log(z.fullName()); //
+console.log(x(12)); // 22
+console.log(y()); // undefined
+console.log(z.firstName);  // 'John'
+console.log(z.somethingCool(8)); // 18
+console.log(z.getFirstName()); // 'John'
+console.log(z.fullName()); // 'John Doe'
 z.setName('Han', 'Solo');
-console.log(z.fullName()); //
+console.log(z.fullName()); // 'Han Solo'
 z.firstName = "Luke";
 z.lastName = "Skywalker";
-console.log(z.fullName("Foo", "Bar")); //
+console.log(z.fullName("Foo", "Bar")); // 'Luke Skywalker'
 z.lastName = "Organa";
-console.log(z.fullName()); //
+console.log(z.fullName()); // 'Luke Organa'
 z.setName("Jar Jar");
-console.log(z.fullName()); //
+console.log(z.fullName()); // 'Jar Jar undefined'
 ```
 
 ## Interruptions and Events
@@ -61,20 +61,23 @@ console.log(z.fullName()); //
 
 ### Common Wins
 
-*
+* Asking for help... HELPS!
 
 ### Common Struggles
 
-*
+* Overcomplicating things === bad
+* Media Queries
+* Flexbox
 
 ## Topics
 
 * Scrollable Areas
 * Modifying Build Tools
+  - [Foundation](http://foundation.zurb.com/sites/docs/v/5.5.3/using-sass.html)
+  - `npm install foundation-sites --save`
 * SASS Extends
-  - CSS Gram
 * SASS Mixins
-  - Yoga Sass
+  - Yoga SASS
 
 ## Inspiration
 

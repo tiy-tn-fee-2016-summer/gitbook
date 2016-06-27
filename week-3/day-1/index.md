@@ -179,6 +179,6 @@ console.log(pet); // 'Wolf'
 
 ## Code
 
-https://github.com/TIY-TN-FEE-2016-spring/lesson-03-01
+https://github.com/TIY-TN-FEE-2016-summer/lesson-03-01
 
 ## Homework

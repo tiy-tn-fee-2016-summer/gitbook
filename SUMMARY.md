@@ -45,3 +45,7 @@
 
   - Week 3
     + [Day 1](week-3/day-1/index.md)
+
+* Resources
+  - JS
+    * [Vocab](references/js/vocab.md)

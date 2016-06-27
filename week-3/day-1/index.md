@@ -3,7 +3,8 @@
 
 ## Interruptions & Events
 
-* 2-5PM 1 on 1s
+* 1PM Student Interview
+* Work on JS Crash Course
 
 ## Daily JS
 
@@ -24,6 +25,7 @@ var z = 'false';
 
 var a = (foo) => {
   if (foo) {
+    // console.log('a works with ' + foo.toString());
     console.log(`a works with ${foo.toString()}`);
   }
 }
@@ -31,44 +33,58 @@ var a = (foo) => {
 var noexist;
 
 if (x) {
-  console.log(`x is truthy?`); //
+  console.log(`x is truthy?`); // 'x is truthy'
 }
 
+// The console.log does not run because hi is false
 if (hi) {
-  console.log(`hi is truthy?`); //
+  console.log(`hi is truthy?`);
 }
 
-if (noexist) { //
+// The console.log does not run because hi is undefined
+if (noexist) {
   console.log(`noexist is truthy?`);
 }
 
 if (y) {
-  console.log(`y is truthy?`); //
+  console.log(`y is truthy?`); // 'y is truthy'
 }
 
 if (z) {
-  console.log(`z is truthy?`); //
+  console.log(`z is truthy?`); // 'z is truthy'
 }
 
-if (y(`10`)) { //
+if (y(`10`)) { // "10" is printed while running y, but it returns false
   console.log(`y('10') is truthy?`);
+} else {
+  console.log('y returned something falsey!'); // This is run because y('10') was falsey
 }
 
-if (a()) { //
+// a always returns undefined so the contents of if never runs here
+if (a()) {
   console.log(`a() is truthy?`);
 }
 
-if (a(null)) { //
+// a always returns undefined so the contents of if never runs here
+if (a(null)) {
   console.log(`a(null) is truthy?`);
 }
 
-if (a(10)) { //
+if (a(10)) { // "a works with 10" is printed from within a, but a still returns undefined
   console.log(`a(10) is truthy?`);
 }
 ```
 
 | Truthy                 | Falsey         |
 | :-------------         | :------------- |
+| true                   | false          |
+| Numbers not 0          | undefined      |
+| Non-Empty Strings      | null           |
+| Objects                | 0              |
+| Arrays (check .length) | Empty Strings  |
+| Functions              | NaN            |
+
+https://dorey.github.io/JavaScript-Equality-Table/
 
 ### Value vs Reference
 
@@ -80,34 +96,51 @@ x = 10;
 var y = x;
 y = 12;
 
-console.log(x); //
-console.log(y); //
+console.log(x); // 10
+console.log(y); // 12
 
 var z = {firstName: 'Bob'};
-console.log(z.firstName); //
+console.log(z.firstName); // 'Bob'
 
 var a = z;
 a.firstName = 'Tim';
+console.log(a.firstName); // 'Tim'
 a = {firstName: 'Jan'};
 
-console.log(z.firstName); //
-console.log(a.firstName); //
+console.log(a.firstName); // 'Jan'
+console.log(z.firstName); // 'Tim'
 
 var b = [15, 25, 30];
 var c = b;
 c[1] = 100;
 
-console.log(b); //
-console.log(c); //
+console.log(b); // [15, 100, 30]
+console.log(c); // [15, 100, 30]
 
 a = b;
 
-console.log(x); //
-console.log(y); //
-console.log(z); //
-console.log(a); //
-console.log(b); //
-console.log(c); //
+console.log(x); // 10
+console.log(y); // 12
+console.log(z); // {firstName: 'Tim'}
+console.log(a); // [15, 100, 30]
+console.log(b); // [15, 100, 30]
+console.log(c); // [15, 100, 30]
+```
+
+> **PRO TIP** - If you see dot notation or bracket notation on the left hand side of an assignment, you are changing that actual object! If there is no dot or bracket notation, you will not have side-effects.
+
+```js
+function change(a, b) {
+  a.lastName = 'Stark';
+  b = 'Dragon';
+}
+
+var character = { firstName: 'Jon', lastName: 'Snow' };
+var pet = 'Wolf';
+
+change(character, pet);
+console.log(character); // { firstName: 'Jon', lastName: 'Stark' };
+console.log(pet); // 'Wolf'
 ```
 
 ## Standups
@@ -119,11 +152,16 @@ console.log(c); //
 
 ### Common Wins
 
-*
+* Working under pressure and time limits
+* Becoming confident with HTML + CSS
+* Layout is becoming easier
 
 ### Common Struggles
 
-*
+* Hover states and layering (Workshop coming up)
+* Media queries and better responsive design
+* Images in code structure
+* Time management
 
 ## Topics
 

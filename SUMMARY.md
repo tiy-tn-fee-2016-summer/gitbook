@@ -45,6 +45,7 @@
 
   - Week 3
     + [Day 1](week-3/day-1/index.md)
+    + [Day 2](week-3/day-2/index.md)
 
 * Resources
   - JS

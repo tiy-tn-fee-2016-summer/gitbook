@@ -1,5 +1,15 @@
 # Tuesday June 28
 
+## Standups
+
+### Common Wins!
+
+* Class working together
+
+### Common Struggles
+
+* Javascript
+
 ## Interruptions & Events
 
 - One on Ones with Josh!

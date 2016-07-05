@@ -49,6 +49,9 @@
     + [Day 3](week-3/day-3/index.md)
     + [Day 4](week-3/day-4/index.md)
 
+  - Week 4
+    + [Day 1](week-4/day-1/index.md)
+
 * Resources
   - JS
     * [Vocab](references/js/vocab.md)

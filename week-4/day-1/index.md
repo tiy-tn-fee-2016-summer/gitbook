@@ -1,4 +1,4 @@
-# Thursday July 5
+# Tuesday July 5
 
 ## Standups
 

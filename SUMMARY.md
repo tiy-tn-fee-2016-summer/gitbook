@@ -51,6 +51,7 @@
 
   - Week 4
     + [Day 1](week-4/day-1/index.md)
+    + [Day 2](week-4/day-2/index.md)
 
 * Resources
   - JS

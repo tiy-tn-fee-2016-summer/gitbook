@@ -9,6 +9,11 @@ Using only Javascript, make the text on the left:
   * Give it extra whitespace
   * Make the text say "Red Pandas RULE"
 
+BONUS
+  * Create an image element using Javascript
+  * Add this new element to the end of the page
+  * Set the image `src` to `http://i.imgur.com/vxKOi.gif?noredirect`
+
 http://codepen.io/rtablada/pen/mEwYGv?editors=1010
 
 ## Standups
@@ -48,4 +53,4 @@ https://github.com/tiy-tn-fee-2016-summer/lesson-week-04/tree/day-02
 
 ## Homework
 
-https://online.theironyard.com/paths/379/units/2144/assignments/5211
+https://online.theironyard.com/paths/379/units/2144/assignments/5232

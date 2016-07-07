@@ -9,11 +9,14 @@
 
 ### Common Wins
 
-*
+* More comfort with JS
+* Review Video Helped
+* ☕️!!!
 
 ### Common Struggles
 
-*
+* ALL THE NEW THINGS!
+* Missing time can hurt...
 
 ## Topics
 

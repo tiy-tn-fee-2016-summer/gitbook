@@ -24,12 +24,18 @@
 * Component Event Listeners
 * Let's Explore Mars
 
-## FAQ
+## FAQ/Review
+* [X] Classes
+* [X] Class Constructors
+* [X] Scope (why doesn't a variable exist where I think it should!!!)
+* [X] Moving HTML over to JS
+  - Make your mockups in HTML and CSS FIRST then just fill in with backticks and `${}` where you need data
+* [X] this
+* [X] When to use `document.createElement`
+* [X] Clearing out Elements
+* [X] What to return and when to use `return`
+* [X] When to use `appendChild`
 
-* [ ] When to use `document.createElement`
-* [ ] Clearing out Elements
-* [ ] What to return and when to use `return`
-* [ ] When to use `appendChild`
 
 ## Code
 

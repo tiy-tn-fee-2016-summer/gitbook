@@ -13,11 +13,15 @@ http://codepen.io/rtablada/pen/ZOvQkq
 
 ### Common Wins
 
-*
+* Got some Javascript to click
 
 ### Common Struggles
 
-*
+* Still struggling with Javascript
+* Getting modules to talk
+* When to render...
+* DARN YOU ASYNC!!!
+* HW time balance
 
 ## Topics
 

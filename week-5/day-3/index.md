@@ -33,6 +33,22 @@
 
 ## FAQ
 
+* [X] Event Listeners
+  - `preventDefault` stops the usual behavior
+* [X] Toggling classes vs styling just from JS
+  - Reduce JS complexity, use CSS for what it's good at!
+  - Increase style reusability!
+* [X] When to use a class vs a function
+  - [X] Functions are task oriented, have no history or stored information (just arguments)
+  - [X] Classes can perform based on their history and stored information
+* [X] Object Fit and Ratio Images
+  - Experiment with codepen
+* [ ] Fetching and when to render
+* [ ] Mapping and reduce
+* [X] Single Responsibility and Smaller Modules
+* [ ] Wiring things together
+* [X] `new` keyword
+
 ## Code
 
 https://github.com/tiy-tn-fee-2016-summer/lesson-week-05/tree/day-03

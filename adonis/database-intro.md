@@ -66,6 +66,8 @@ INSERT INTO public.posts (published_at, id, title, post) VALUES ('2016-07-26', 1
 INSERT INTO public.posts (published_at, id, title, post) VALUES ('2016-07-26', 1, 'My Next Post', 'lorem ipsum');
 ```
 
+To exit the console, hit `CTRL+D`.
+
 Now, let's create a route to get all posts in our app:
 
 ```js
@@ -91,4 +93,4 @@ Route.get('/posts', function * (req, res) {
 
 We still need our `select` statement to get the rows of data, but we've added a constraint with the `WHERE` method.
 
-Next, we will super power our database access by using Lucid models which will give us a lot more power around data creation and updates.
+Next, we'll look at migrations which will help us manage changes in our database tables so that we do not have to go into the `psql` consonle.

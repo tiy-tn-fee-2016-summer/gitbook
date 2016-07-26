@@ -33,6 +33,7 @@
   - Request Inputs
     * Query Params
     * Post Body
+  - Session
 
 ## FAQ
 

@@ -1,8 +1,8 @@
 # Tuesday July 26
 
-## Interruptions
+## Interruptions and Stuff
 
-* 2PM-2:45PM Meeting
+* 1-on-1s
 
 ## Standups
 
@@ -13,12 +13,25 @@
 
 ### Common Wins
 
-*
+* Yesterday wasn't AS bad as some of the other things we've done...
+* Catching up on some backlog
+* Continuing to build skills
+* Started to seem easy...
+* CSS!!! YEAH!!! CSS!!!
+  - If it doesn't work, at least make it look good!
+* New Knowledge Hurts?
+* Tim's guest lecture!
 
 ### Common Struggles
 
-*
-
+* Adonis and Server Side is a big shift
+  - Intimidating?
+* Adonis docs aren't as good as Ember
+* "PLEASE GIVE ME BACK THE LINTER!!!"
+* No framework Javascript is hard
+* Concerned about 'nilla JS
+* Why are we using Adonis?
+* Backlog
 
 ## Topics
 

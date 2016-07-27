@@ -88,3 +88,29 @@ up() {
   });
 }
 ```
+
+## Running Migrations
+
+Now that we have our migration created, we can run it to make the changes in the `up` method:
+
+```bash
+./ace migration:run
+```
+
+Adonis will track this migration and make any required changes.
+
+## Rolling Back Migrations
+
+If we ever need to modify a migration, we should first roll the migration back (**rolling back migrations will likely drop tables and lose data so if the app is deployed, make a new migration to change the database instead of rolling back**).
+Rolling back migrations is as easy as running them with ace:
+
+```bash
+./ace migration:rollback
+```
+
+Migrations will run and rollback in batches.
+So we shouldn't worry that old migrations will be undone.
+To keep our app from accidentally rolling back migrations, we should run a migration after creating it so that we have a new batch for each migration.
+
+
+Now that we have our database set up, it's time to better use our database!

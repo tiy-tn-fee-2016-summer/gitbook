@@ -2,6 +2,8 @@
 
 ## Interruptions
 
+Guest Lecture - Testing and QA
+
 ## Standups
 
 * What is going well?
@@ -11,14 +13,18 @@
 
 ### Common Wins
 
-*
+* Index/Edit/New
+* Styling Todo
+* Weekend
 
 ### Common Struggles
 
-*
+* Detail page
+* Terminology
 
 ## Topics
 
+- [ ] Review Ember Terms
 - [ ] Authentication
   * [ ] `ember-mirage-jwt`
   * [ ] `ember-simple-auth`
@@ -29,7 +35,10 @@
 
 ## FAQ
 
-* [ ]
+* [ ] What to focus on right now?
+  - Ember will cover the most ground
+* [ ] Database Relationship Design
+* [ ] Mirage Factories
 
 ## Code
 

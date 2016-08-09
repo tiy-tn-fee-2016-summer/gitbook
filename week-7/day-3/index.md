@@ -50,12 +50,21 @@
 ## FAQ
 
 * [ ] What do models do (in Adonis)?
-* [ ] How to use the `ace` CLI
-* [ ] Database Config
+* [X] How to use the `ace` CLI
+  - Run and rollback migrations
+  - Make (generate) models, controllers, migrations, etc
+  - Setup Users and Auth
+* [X] [Database Config](https://i.ytimg.com/vi/kXHfDz18pYo/maxresdefault.jpg)
+  - `.env`
+  - Check by trying to run migrations
+* [X] Session vs Database
+  - Database - (Long Term Memory) Allows to store forever...ish and between anyone you want to let them have it
+  - Session - (Short Term Memory) Login/Logout, Error/Success messages, old form input
 * [ ] Controllers vs Callbacks
-* [ ] Session vs Database
-* [ ] Nunjucks Template Loops and If
-* [ ] CSRF
+* [X] Nunjucks Template Loops and If
+* [X] CSRF
+  - Security for POST requests
+  - Checks that session is valid
 
 ## Code
 

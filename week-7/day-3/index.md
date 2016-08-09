@@ -68,6 +68,6 @@
 
 ## Code
 
-https://github.com/tiy-tn-fee-2016-summer/lesson-7-adonis/tree/day-02
+https://github.com/tiy-tn-fee-2016-summer/lesson-7-adonis/tree/day-03
 
 ## Homework

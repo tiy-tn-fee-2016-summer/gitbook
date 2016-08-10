@@ -1,8 +1,9 @@
-# Tuesday Aug 9
+# Wednesday Aug 10
 
 ## Interruptions
 
-1-1:45
+* 1-1:45 Meeting
+* NASH JS TONIGHT!!! Free 🍕🍕🍕🍕🍕
 
 ## Standups
 
@@ -13,11 +14,13 @@
 
 ### Common Wins
 
-*
+* Todo Groups Progress
+* Last week of lecture
 
 ### Common Struggles
 
-*
+* Backlog
+* Last week of lecture
 
 ## Topics
 
@@ -32,13 +35,16 @@
   * [ ] Surge
   * [ ] Updating `scripts` in `package.json`
 - [ ] Authentication
-  * [ ] `ember-mirage-jwt`
   * [ ] `ember-simple-auth`
   * [ ] `ember-simple-auth-token`
 
 ## FAQ
 
-*
+* [ ] CSS Frameworks
+  - Bulma
+  - Materialize
+  - Bootstrap
+  - Don't use Foundation...
 
 ## Code
 

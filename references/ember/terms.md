@@ -234,8 +234,11 @@ export default DS.Model.extend({
   - Model (Instance) - Returned by `findAll`, `createRecord`, `findRecord`
     * Object to represent and manage a particular record in the API
     * Important Functions:
+      - `set(propertyName, value)` - Change a single property on an Ember data model
       - `setProperties(valuesObject)` - Set all the values on the current model with values from the `valuesObject`
         * `post.setProperties({body: 'This is an awesome post', numOfComments: 5})`
+      - `incrementProperty(propertyName, value = 1)` - Add 1 (or the value specified) to a property
+      - `toggleProperty(propertyName)` - Change a property from `true` to `false` or the opposite...
       - `save()` - Figures out how to sync this current record with the API
         * For instance, for records that are new (usually made by `createRecord`) make a `POST` request
         * For records that are being updated make a `PUT` or `PATCH` request
@@ -289,21 +292,101 @@ Also useful when you want to try to see what your app looks like with strange da
     * Should requests be delayed by a certain amount of time to simulate network traffic?
 
 * Tests
-  - Acceptance Test
-  - Integration Test
   - Unit Test
-  - Test Helpers
-    * `visit`
-    * `click`
-    * `fillIn`
-    * `andThen`
-    * `find`
-    * `findWithAssert`
-* CLI
+    * Really small test
+    * Testing a single function or class at a time
+    * How does this piece work in isolation
+  - Integration Test
+    * Tests a few pieces together or small user behavior
+    * Usually used to test Components
+  - Acceptance Test
+    * "As a user I accept that I can..."
+    * Might be faking some network requests
+    * Actually running the application
+    * Reset to a new app EVERY time
+    * Test Helpers
+      - `visit`
+      - `click`
+      - `fillIn`
+      - `andThen`
+      - `find`
+      - `findWithAssert`
+* Ember CLI (Command Line Interface)
   - Commands
-  - `.ember-cli`
-    * `usePods`
+    * `ember new <project-name>` - Creates a new Ember project
+    * `ember install` - Install addons by name and automatically setups any required files and updates `package.json`
+    * `ember s` (`npm start`) - Starts a development server on port `4200`, watches for changes
+    * `ember g` - Generates a piece of your app
+      - `ember g route`
+      - `ember g template`
+      - `ember g controller`
+      - `ember g model`
+      - `ember g helper`
+      - `ember g adapter`
+  - `.ember-cli` - Configuration for the `ember` command
+    * `usePods` - When set to `true`, all newly generated routes, controllers, and templates will be grouped together
+
   - Folder Structure
     * `app`
-    * `public`
+    * `public` - Plain 'ol files. Images, fonts, extra CSS, etc
     * Pods vs Traditional
+
+Given the folowing routes:
+
+```
+post - /posts
+|--post.index
+|--post.edit - /:id/edit
+|--post.detail - /:id/more
+|--post.new
+````
+
+
+Traditional
+
+```
+app/
+|--controllers/
+|  |--post/
+|  |  |--edit.js
+|  |  |--new.js
+|  |--post.js
+|--routes/
+|  |--post/
+|  |  |--detail.js
+|  |  |--edit.js
+|  |  |--index.js
+|  |  |--new.js
+|  |--post.js
+|--templates/
+|  |--post/
+|  |  |--detail.hbs
+|  |  |--edit.hbs
+|  |  |--index.hbs
+|  |  |--new.hbs
+|  |--post.hbs
+```
+
+Pods
+
+```
+app/
+|--post/
+|  |--detail/
+|  |  |--route.js
+|  |  |--template.hbs
+|  |--edit/
+|  |  |--controller.js
+|  |  |--route.js
+|  |  |--template.hbs
+|  |--index/
+|  |  |--route.js
+|  |  |--template.hbs
+|  |--new/
+|  |  |--controller.js
+|  |  |--route.js
+|  |  |--template.hbs
+|  |--controller.js
+|  |--route.js
+|  |--template.hbs
+```

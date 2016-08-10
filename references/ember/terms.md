@@ -48,6 +48,7 @@ In our example, this method loads `this.store.findAll('post')` to get all post r
 Now our `post` template could look like this:
 
 ```hbs
+{% raw %}
 <div class="sidebar">
   <ul class="post-list">
     {{#each model as |post|}}
@@ -66,10 +67,11 @@ Now our `post` template could look like this:
 <div class="main">
   {{outlet}}
 </div>
+{% endraw %}
 ```
 
 Now if we go to `/posts` this will load the `post.index` route which will be surrounded by the above template.
-Any HBS from the `post.index` template will be put in the `{{outlet}}` area.
+Any HBS from the `post.index` template will be put in the `{% raw %}{{outlet}}{% endraw %}` area.
 Because of nesting, the sidebar will show up for ALL of the `post.___` routes.
 
 If a child route does not define its own model and does not have any dynamic segments, it will inherit the parent `model` data.
@@ -81,29 +83,29 @@ But, we will have to likely fetch data in our `post.detail` and `post.edit` page
 Ember uses HTMLBars which is like Handlebars that actually knows about the DOM and how HTML works.
 At it's core HTMLBars is just HTML that we can start adding bits of logic and templating to.
 
-Variables can be used by surrounding it in `{{}}`.
-So, if we wanted to get the `firstName` property from the `user` variable we would write `{{ user.firstName }}` (the spaces are just for readability).
+Variables can be used by surrounding it in `{% raw %}{{}}{% endraw %}`.
+So, if we wanted to get the `firstName` property from the `user` variable we would write `{% raw %}{{ user.firstName }}{% endraw %}` (the spaces are just for readability).
 
-> **NOTE** The curly braces in HTMLBars are not plain Javascript! So you cannot run functions regularly! So `{{ (new Date()).getHours() }}`.
+> **NOTE** The curly braces in HTMLBars are not plain Javascript! So you cannot run functions regularly! So `{% raw %}{{ (new Date()).getHours() }}{% endraw %}`.
 Instead to use Javascript, we will have to use helpers or components to help format data into strings
 
 Templating Helpers
-  - `each` - `{{#each arr as |item|}} ... {{/each}}`
+  - `each` - `{% raw %}{{#each arr as |item|}} ... {{/each}}{% endraw %}`
   - `if`
-    - Inline Mode (Helpful for adding/removing classes) `{{if check "true-class" "false-class"}}`
-    - Block Mode (Most common) `{{#if check}} ... {{else}} ... {{/if}}` (the else is optional)
+    - Inline Mode (Helpful for adding/removing classes) `{% raw %}{{if check "true-class" "false-class"}}{% endraw %}`
+    - Block Mode (Most common) `{% raw %}{{#if check}} ... {{else}} ... {{/if}}{% endraw %}` (the else is optional)
   - `unless` - Works the same as `if` but happens when the `check` is falsey
 
 Special Helpers
   - `outlet` - This is where nested templates will be rendered
   - `action` - Used to listen for browser and user events
     * Put within the opening tag of an element or as an argument to component
-      - `<button {{action "save"}}>Save</button>`
-      - `{{input onchange=(action "alertChange")}}`
+      - `<button {% raw %}{{action "save"}}{% endraw %}>Save</button>`
+      - `{% raw %}{{input onchange=(action "alertChange")}}{% endraw %}`
     * Optional `on` attribute can specify what type of event to listen to (defaults to 'click')
-      - `<form {{action "saveUser" on="submit"}}> ... </form>`
+      - `<form {% raw %}{{action "saveUser" on="submit"}}{% endraw %}> ... </form>`
     * Arguments can be passed in to actions after the action name
-      - `<form {{action "saveUser" user firstName lastName on="submit"}}> ... </form>`
+      - `<form {% raw %}{{action "saveUser" user firstName lastName on="submit"}}{% endraw %}> ... </form>`
       - This would run the `saveUser` method like this: `saveUser(user, firstName, lastName)`
 
 ## Simple Form
@@ -115,11 +117,11 @@ Basic Example:
 Let's create an edit form for `post.edit` assuming that the current post model is loaded in the template as `model`:
 
 ```hbs
-{{#simple-form startingValues=model onsubmit=(action "savePost" model) as |formValues|}}
+{% raw %}{{#simple-form startingValues=model onsubmit=(action "savePost" model) as |formValues|}}
   {{input value=formValues.title}}
 
   <button>Save</button>
-{{/simple-form}}
+{{/simple-form}}{% endraw %}
 ```
 
 - `startingValues` - What should the form be filled in with to start?

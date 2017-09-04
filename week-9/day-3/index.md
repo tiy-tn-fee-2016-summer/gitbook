@@ -24,19 +24,20 @@
 
 ## Topics
 
-- [ ] Review Ember Terms
-  * [ ] Tests
-  * [ ] CLI
-- [ ] Connecting to APIs (not just mirage)
-  * [ ] Environment Configuration
-  * [ ] Connecting to Heroku
+- [X] Review Ember Terms
+  * [X] Tests
+  * [X] CLI
+- [X] Connecting to APIs (not just mirage)
+  * [X] Environment Configuration
+  * [X] Connecting to Heroku
+  * [X] Customizing Adapters (`register` vs `users`)
 - [ ] Deploying
   * [ ] Ember CLI Build
   * [ ] Surge
   * [ ] Updating `scripts` in `package.json`
-- [ ] Authentication
-  * [ ] `ember-simple-auth`
-  * [ ] `ember-simple-auth-token`
+- [X] Authentication
+  * [X] `ember-simple-auth`
+  * [X] `ember-simple-auth-token`
 
 ## FAQ
 
